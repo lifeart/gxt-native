@@ -2,3 +2,5 @@
 
 A new Flutter project.
 # gxt-native
+
+<img width="695" alt="image" src="https://github.com/lifeart/gxt-native/assets/1360552/76417f00-7130-4d7e-be25-fa40b192162f">
