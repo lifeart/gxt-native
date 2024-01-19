@@ -26,7 +26,7 @@ class MainApp extends StatelessWidget {
               devToolsService: ChromeDevToolsService(), // Enable Chrome DevTools Services
               viewportWidth: viewportSize.width - queryData.padding.horizontal, // Adjust the viewportWidth
               viewportHeight: viewportSize.height - queryData.padding.vertical, // Adjust the viewportHeight
-              bundle: WebFBundle.fromUrl('http://localhost:4173/'), // The page entry point
+              bundle: WebFBundle.fromUrl('http://localhost:3001/'), // The page entry point
             ),
           ],
         ),

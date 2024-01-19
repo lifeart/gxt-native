@@ -1,0 +1,24 @@
+{
+  "name": "gxt_native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "http-server \"./\" -p 3001 -c-1",
+    "start": "pnpm dev & pnpm serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@lifeart/gxt": "^0.0.28",
+    "http-server": "^14.1.1",
+    "onsenui": "^2.12.8",
+    "vite": "^5.0.11"
+  }
+}
