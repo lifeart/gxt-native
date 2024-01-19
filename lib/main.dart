@@ -15,6 +15,7 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    WebF.setHttpCacheMode(HttpCacheMode.NO_CACHE);
     final MediaQueryData queryData = MediaQuery.of(context);
     final Size viewportSize = queryData.size;
 
