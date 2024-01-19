@@ -17,8 +17,11 @@
   "type": "module",
   "dependencies": {
     "@lifeart/gxt": "^0.0.28",
+    "autoprefixer": "^10.4.17",
     "http-server": "^14.1.1",
     "onsenui": "^2.12.8",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
     "vite": "^5.0.11"
   }
 }
