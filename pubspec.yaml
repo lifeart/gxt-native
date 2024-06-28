@@ -4,10 +4,10 @@ publish_to: 'none'
 version: 0.1.0
 
 environment:
-  sdk: '3.0.2'
+  sdk: '3.3.4'
 
 dependencies:
-  webf: ^0.15.1
+  webf: '0.16.0'
   flutter:
     sdk: flutter
 
